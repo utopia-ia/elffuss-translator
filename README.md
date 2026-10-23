@@ -11,12 +11,14 @@ No server, no account, no paid API — nothing you say ever leaves your machine.
 
 </div>
 
+> Elffuss Translator now lives in the UtopiaIA organization on GitHub, at github.com/utopia-ia/elffuss-translator. It moved from github.com/KikoCis/elffuss-translator on 23 October 2026; the old address redirects.
+
 ---
 
 ## Live skills: a meeting facilitator that costs nothing
 
 The translator does more than translate. It can hand the conversation to
-[Elffuss Claw](https://github.com/KikoCis/elffuss-claw), which runs a **live audio skill**
+[Elffuss Claw](https://github.com/utopia-ia/elffuss-claw), which runs a **live audio skill**
 and works while you talk. Pick one when you hit **Skills en vivo**:
 
 | | Skill | What it does |
@@ -55,7 +57,7 @@ translator ──[hablante + texto]──▶  Claw  ──▶ model ──▶ CO
     └───[surface html + state]────────┘        (rendered sandboxed, right-hand panel)
 ```
 
-This is written up as a small spec — see **[Skill Surface Protocol](https://github.com/KikoCis/elffuss-claw)**.
+This is written up as a small spec — see **[Skill Surface Protocol](https://github.com/utopia-ia/elffuss-claw)**.
 
 ## What it does
 
