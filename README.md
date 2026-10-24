@@ -1,17 +1,27 @@
 <div align="center">
 
+<img src="assets/logo.svg" alt="" width="72">
+
 # Elffuss Translator
 
-**Real-time conversation translation, 100% in your browser.**
+**Talk to someone who does not speak your language.**
 
-It listens, tells speakers apart, translates and speaks back.
-No server, no account, no paid API — nothing you say ever leaves your machine.
+Put your computer between the two of you and talk by turns. It listens, tells the two voices apart, translates and speaks back. The audio
+is processed in your browser, with no server, no account and no paid API.
 
-[**▶ Open the app**](https://translator.elffuss.com) · [Elffuss](https://elffuss.com) · Apache-2.0
+[![License](https://img.shields.io/badge/license-Apache--2.0-0f6e8c?style=flat-square)](LICENSE)
+[![ONNX](https://img.shields.io/badge/models-ONNX%20in%20the%20browser-5b6169?style=flat-square)](#the-stack-all-onnx-in-the-browser)
+[![Runs in](https://img.shields.io/badge/runs%20in-your%20browser-0f6e8c?style=flat-square)](https://translator.elffuss.com)
+
+[Open Translator](https://translator.elffuss.com) · [Elffuss](https://elffuss.com) · [Claw](https://github.com/utopia-ia/elffuss-claw) · [Copilot](https://github.com/utopia-ia/elffuss-copilot) · [Shared core](https://github.com/utopia-ia/elffuss)
 
 </div>
 
 > Elffuss Translator now lives in the UtopiaIA organization on GitHub, at github.com/utopia-ia/elffuss-translator. It moved from github.com/KikoCis/elffuss-translator on 23 October 2026; the old address redirects.
+
+---
+
+**In this repository:** [live skills](#live-skills-a-meeting-facilitator-that-costs-nothing) · [what it does](#what-it-does) · [the stack](#the-stack-all-onnx-in-the-browser) · [the diarizer on its own](#using-the-diarizer-on-its-own) · [honest edges](#honest-edges) · [host it yourself](#hosting-it-yourself)
 
 ---
 
@@ -21,12 +31,12 @@ The translator does more than translate. It can hand the conversation to
 [Elffuss Claw](https://github.com/utopia-ia/elffuss-claw), which runs a **live audio skill**
 and works while you talk. Pick one when you hit **Skills en vivo**:
 
-| | Skill | What it does |
-|---|---|---|
-| 🎯 | **Sales copilot** | Feeds you the exact line to say and tracks the call's objectives. |
-| 📇 | **Customer card** | Fills a customer record by itself from what the client says. Exports to Excel. |
-| 🧑‍🏫 | **Meeting facilitator** | Topics, decisions and action items, live. Exports. |
-| 📝 | **Summary & ideas** | A running summary plus the ideas that come up. |
+| Skill | What it does |
+|---|---|
+| **Sales copilot** | Feeds you the exact line to say and tracks the call's objectives. |
+| **Customer card** | Fills a customer record by itself from what the client says. Exports to Excel. |
+| **Meeting facilitator** | Topics, decisions and action items, live. Exports. |
+| **Summary & ideas** | A running summary plus the ideas that come up. |
 
 Each skill paints its own **surface**: a live view that renders *inside the translator*,
 next to the subtitles — not just a notification. It updates as the conversation goes on
